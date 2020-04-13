@@ -9,9 +9,9 @@
         </div>
     </div>
     <br>
-    <p>Jauns lietotājs? <a href="{{ url_for('register') }}">Reģistrējieties!</a></p>
+    <p>Jauns lietotājs? <a href="{{ url_for('auth.register') }}">Reģistrējieties!</a></p>
     <p>
         Aizmirsāt paroli?
-        <a href="{{ url_for('reset_password_request') }}">Atiestatīt paroli</a>
+        <a href="{{ url_for('auth.reset_password_request') }}">Atiestatīt paroli</a>
     </p>
 {% endblock %}
